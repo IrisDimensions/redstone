@@ -1,25 +1,23 @@
 {
-    "name": "Flat",
-    "derivative": "PLAINS",
-    "layers": [
+  "name": "Redstone Platform",
+  "derivative": "minecraft:plains",
+  "vanillaDerivative": "minecraft:plains",
+  "layers": [
+    {
+      "palette": [
         {
-            "palette": [
-                {
-                    "block": "white_concrete"
-                }
-            ],
-            "maxHeight": 2,
-            "minHeight": 2,
-            "style": {
-                "style": "FLAT"
-            }
+          "block": "minecraft:white_concrete"
         }
-    ],
-    "generators": [
-        {
-            "generator": "flat",
-            "min": 2,
-            "max": 2
-        }
-    ]
+      ],
+      "minHeight": 2,
+      "maxHeight": 2
+    }
+  ],
+  "generators": [
+    {
+      "generator": "flat",
+      "min": 2,
+      "max": 2
+    }
+  ]
 }
